@@ -11,6 +11,6 @@ public class Main {
 
         //GenericMethods2.printArgs(per1.getAge(), per2.getName(),42); al hacer un parametro no generico si introducimos un valor que no concuerde da error.
 
-        GenericMethods.printArgs(per1.getAge(), per2.getName(),per1);
+        GenericMethods2.printArgs(per1.getAge(), per2.getName(),per2.getSurname());
     }
 }

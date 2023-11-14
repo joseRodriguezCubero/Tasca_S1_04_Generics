@@ -9,3 +9,5 @@ public class GenericMethods {
         System.out.print(arg3);
     }
 }
+
+
