@@ -1,12 +1,14 @@
 package n3exercici1;
 
-public class GenericClass<T extends Smartphone> implements Telephone {
-    @Override
-    public void call() {
+public class GenericClass {
+        public <T extends Telephone> void genMethod1(T telephone){
+            telephone.call();
+        }
+        public <T extends Smartphone> void genMethod2(T smartphone){
+            smartphone.call();
+            smartphone.takePictures();
+        }
 
-    }
-
-    //public void method1(<T extends Telephone>) {
-
-    //}
 }
+
+
